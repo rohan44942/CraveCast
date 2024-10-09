@@ -1,4 +1,4 @@
-# Project Assignment: CraveCast
+# CraveCast: Discover, crave, order: Food at fingertips
  
 ## Key Use Cases
  
