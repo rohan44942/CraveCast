@@ -1,0 +1,17 @@
+/* FoodVideoScroll.css */
+
+.animate-heart {
+  animation: heart-beat 0.5s forwards; /* Animation when liked */
+}
+
+@keyframes heart-beat {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.3); /* Scale up for the effect */
+  }
+  100% {
+    transform: scale(1); /* Scale back to normal */
+  }
+}
