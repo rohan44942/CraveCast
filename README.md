@@ -1,4 +1,4 @@
-# Project Assignment: Zomato Restaurant Listing & Searching
+# CraveCast: Discover, crave, order: Food at fingertips
  
 ## Key Use Cases
  
@@ -9,6 +9,7 @@ Data available [here](https://www.kaggle.com/datasets/shrutimehta/zomato-restaur
 web API service with the following endpoints to serve the content loaded in the previous step:
   - **Get Restaurant by ID**: Retrieve details of a specific restaurant by its ID.
   - **Get List of Restaurants**: Fetch the list of restaurants with pagination support.
+  - 
  
 ### User Interface
 web application with the following pages, which must connect to the web API service:
@@ -16,6 +17,7 @@ web application with the following pages, which must connect to the web API serv
   - **Restaurant Detail Page**: Show details of a specific restaurant.
   - **Location search**: Search restaurants in given latitude and longitude range (e.g restaurants in 3 km of a given latitude and longitude)
   - **Image search**: Upload an image of a food like icecream, pasta etc., and search restaurants which offer those cuisines.
+  - **Reel scroll**: you can see reels of food and also find you food on that basis 
 
 ## Additional Use Cases (Optional)
 If time allows, implement the following additional features, ensuring they are supported in both the API and the UI:
@@ -23,6 +25,7 @@ If time allows, implement the following additional features, ensuring they are s
   - By Country
   - By Average Spend for Two People
   - By Cuisines
+  - Automatically recommendation also works 
 - **Search Functionality**: Enable search for restaurants by name and description.
 
 
@@ -40,9 +43,5 @@ Please follow the below steps to run the application.
 > - ``` npm i ```
 > - ``` npm start ```
 
-- Application will open automatically in browser. If won't the use below link : 
->- http://localhost:3000/
-- Hosted application link
->- [https://restaurant-listing-searching-owydciyjx.vercel.app](https://restaurant-listing-s-git-b67360-kartik-patels-projects-623afc4b.vercel.app/)
 
 

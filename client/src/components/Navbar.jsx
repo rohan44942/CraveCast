@@ -1,12 +1,13 @@
 import React from "react";
 import { Disclosure } from "@headlessui/react";
 import { Link } from "react-router-dom";
-const logo  = require('./Logo.png');
+const logo = require("./Logo.png");
 
 const navigation = [
   { name: "Home", href: "/", current: true },
   { name: "Location Search", href: "/locationSearch", current: false },
   { name: "Image Search", href: "/imageSearch", current: false },
+  { name: "shorts", href: "/videoScroll", current: false },
 ];
 
 function classNames(...classes) {
@@ -25,7 +26,6 @@ const Navbar = () => {
                 src={logo}
                 className="h-[9vh] w-auto"
               />
-              
             </div>
             <div className="hidden sm:ml-6 sm:block my-auto">
               <div className="flex space-x-4">
@@ -42,9 +42,7 @@ const Navbar = () => {
                     )}
                   >
                     <strong>{item.name}</strong>
-                    
                   </Link>
-                  
                 ))}
               </div>
             </div>
