@@ -1,13 +1,7 @@
 # CraveCast: Discover, crave, order: Food at fingertips
- 
-## Key Use Cases
- 
-### Data Loading
-Data available [here](https://www.kaggle.com/datasets/shrutimehta/zomato-restaurants-data)
- 
 ### Web API Service
 web API service with the following endpoints to serve the content loaded in the previous step:
-  - **Get Restaurant by ID**: Retrieve details of a specific restaurant by its ID.
+  - **Get Restaurant**: Retrieve details of a specific restaurant by its ID.
   - **Get List of Restaurants**: Fetch the list of restaurants with pagination support.
   - 
  
@@ -19,7 +13,7 @@ web application with the following pages, which must connect to the web API serv
   - **Image search**: Upload an image of a food like icecream, pasta etc., and search restaurants which offer those cuisines.
   - **Reel scroll**: you can see reels of food and also find you food on that basis 
 
-## Additional Use Cases (Optional)
+## Additional Use Cases
 If time allows, implement the following additional features, ensuring they are supported in both the API and the UI:
 - **Filtering Options**:
   - By Country
@@ -29,7 +23,7 @@ If time allows, implement the following additional features, ensuring they are s
 - **Search Functionality**: Enable search for restaurants by name and description.
 
 
-# Assignment Submission : Installation and Run Application
+# application
 Please follow the below steps to run the application.
 - **Insatalltion**:
   - Clone the repository
